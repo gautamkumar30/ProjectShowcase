@@ -1,0 +1,32 @@
+.dashboardCard {
+  * {
+    margin: 0;
+  }
+
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: #c4eeee;
+  align-items: center;
+  border-radius: 25px;
+  gap: 20px;
+
+  padding: 17px 30px;
+
+  h1 {
+    font-size: 50px;
+    color: #323584;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      opacity: 1;
+      font-size: 20px;
+      color: #323584;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.HomePage {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+
+  .wrapper {
+    width: 100vw;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      div {
+        position: relative;
+        h1 {
+          font-size: 40px;
+          color: #323584;
+        }
+
+        h2 {
+          position: relative;
+          top: -15px;
+          font-weight: 400;
+          margin: 0;
+          font-size: 26px;
+          color: #323584;
+          opacity: 0.8;
+        }
+      }
+
+      .link {
+        font-size: 20px;
+        text-decoration: none;
+        padding: 15px 25px;
+        color: white;
+        background-color: #323584;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+
+      .link:last-child {
+        color: #323584;
+        background-color: white;
+        border: 1px solid #323584;
+        border-radius: 10px;
+      }
+    }
+
+    .dashboard {
+      width: 100%;
+      display: flex;
+      gap: 30px;
+    }
+
+    .yourProjects {
+      h2 {
+        font-size: 30px;
+        color: #323584;
+      }
+
+      .projectCardList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+    }
+  }
+}

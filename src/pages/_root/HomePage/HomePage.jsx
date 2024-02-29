@@ -18,7 +18,8 @@ const HomePage = () => {
       <div className="wrapper">
         <section className="header">
           <div>
-            <h1>Welcome, {currentUser.displayName}</h1>
+            {/* <h1>Welcome, {currentUser.displayName}</h1> */}
+            <h1>Welcome, Gautam Kumar G</h1>
             <h2>S.A. Engineering College</h2>
           </div>
           <div>

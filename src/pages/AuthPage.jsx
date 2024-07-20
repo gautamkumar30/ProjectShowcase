@@ -12,6 +12,8 @@ const AuthPage = () => {
   const [err, setErr] = useState(false);
   const { currentUser } = useContext(AuthContext);
 
+  // Google Login
+
   const handleGoogleLogin = async () => {
     try {
       const provider = new GoogleAuthProvider();

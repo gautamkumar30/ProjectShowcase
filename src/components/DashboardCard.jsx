@@ -12,4 +12,5 @@ const DashboardCard = ({ value, title1, title2 }) => {
   );
 };
 
+// new dashboard card
 export default DashboardCard;

@@ -12,5 +12,6 @@ const DashboardCard = ({ value, title1, title2 }) => {
   );
 };
 
-// new dashboard card
+// clearedss
+// new line
 export default DashboardCard;

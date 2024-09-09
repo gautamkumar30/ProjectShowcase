@@ -1,4 +1,4 @@
-import "./Dashboard.scss";
+ import "./Dashboard.scss";
 
 const DashboardCard = ({ value, title1, title2 }) => {
   return (

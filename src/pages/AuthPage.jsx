@@ -2,7 +2,7 @@ import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "../firebase";
 import "./authPage.scss";
 import { useNavigate, Link } from "react-router-dom";
-import { doc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore"; 
 import { AuthContext } from "../context/AuthContext";
 import { db } from "../firebase";
 import React, { useContext, useState } from "react";

@@ -10,7 +10,7 @@ import React, { useContext, useState } from "react";
 const AuthPage = () => {
   const navigate = useNavigate();
   const [err, setErr] = useState(false);
-  const { currentUser } = useContext(AuthContext);
+  const { currentUser } = useContext(AuthContext); 
 
 
 
